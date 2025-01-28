@@ -56,6 +56,7 @@ int main()
     inPutStream(1);
     inPutStream(11);
     inPutStream(6);
+    //{1,2,4,6,7,11}
     cout<<median()<<"\n";
 
 

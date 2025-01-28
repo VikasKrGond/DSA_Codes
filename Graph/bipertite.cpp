@@ -13,6 +13,8 @@ using namespace std;
    neighbouring color and if they are already colored check wheter
    the neighbour have opposite color or not and if not then it's
    not a bipertite
+   Note : if the graph is having the odd cycle then 
+   it can't be a bipertite
 */
 bool check(int start, int v, vector<vector<int>>adj, vector<int> col)
 {
